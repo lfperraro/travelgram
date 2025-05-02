@@ -1,0 +1,29 @@
+#menu-nav {
+    display:flex;
+    justify-content: space-between;
+    padding-block:20px;
+    line-height:0;
+    align-items:center;
+}
+
+#menu-nav ul {
+    display:flex;
+    align-items:center;
+    list-style:none;
+    gap:20px;
+    padding-block:8px;
+}
+
+#menu-nav ul li {
+    display:flex;
+    align-items:center;
+}
+
+#menu-nav li:nth-of-type(1) img{
+    width:32px;
+    height:32px;
+}
+#menu-nav li:nth-of-type(4) img{
+    width:40px;
+    height:40px;
+}

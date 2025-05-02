@@ -1,0 +1,35 @@
+#about {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font: var(--text-md);
+}
+#about > div {
+    display:flex;
+    gap:32px;
+    padding-block:32px;
+}
+#about h1 {
+    font: var(--text-lg);
+    color:var(--text-color-primary);
+}
+#about ul {
+    display:flex;
+    flex-direction:column;
+    list-style:none;
+    width:280px;
+    gap:16px;
+}
+
+#about ul li {
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+.text{
+    display:flex;
+    flex-direction:column;
+    width:384px;
+}
+
